@@ -18,6 +18,9 @@ h1 {
 }
 
 section {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
   margin-bottom: 40px;
 }
 
@@ -63,3 +66,16 @@ footer {
   color: #007bff;
 }
 
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Main Container*/
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
