@@ -79,3 +79,20 @@ footer {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+/*Card*/
+
+.card-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  min-width: 250px;
+}
