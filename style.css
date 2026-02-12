@@ -30,6 +30,11 @@ footer {
   padding: 15px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*NAVBAR*/
 .navbar {
   display: flex;
@@ -84,6 +89,7 @@ footer {
 
 .card-wrapper {
   display: flex;
+  flex-direction: column;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -95,4 +101,10 @@ footer {
   border-radius: 8px;
   border: 1px solid #ddd;
   min-width: 250px;
+}
+
+@media (min-width: 768px) {
+  .card-wrapper {
+    flex-direction: row;
+  }
 }
